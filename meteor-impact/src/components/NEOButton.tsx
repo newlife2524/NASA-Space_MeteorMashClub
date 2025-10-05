@@ -21,7 +21,7 @@ export function NEOButton() {
   }
 
   return (
-    <button onClick={handleClick} style={{ position: 'absolute', top: 16, right: 16 }}>
+    <button onClick={handleClick} style={{ position: 'absolute', top: 16, right: 16, zIndex: 10 }}>
       Fetch NEOs (NASA)
     </button>
   )

@@ -15,7 +15,7 @@ export function Controls() {
   }
 
   return (
-    <div style={{ position: 'absolute', top: 16, left: 16, padding: 12, background: 'rgba(20,20,20,0.85)', color: '#fff', borderRadius: 8, width: 300 }}>
+    <div style={{ position: 'absolute', top: 16, left: 16, padding: 12, background: 'rgba(20,20,20,0.85)', color: '#fff', borderRadius: 8, width: 300, zIndex: 10 }}>
       <h3 style={{ marginTop: 0 }}>Impact Parameters</h3>
       <label>Diameter (km)
         <input type="number" step="0.01" value={inputs.asteroidDiameterKm} onChange={onChangeNumber('asteroidDiameterKm')} style={{ width: '100%' }} />

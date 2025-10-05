@@ -27,7 +27,7 @@ function Asteroid() {
 
 export default function App() {
   return (
-    <div style={{ width: '100%', height: '100vh', background: '#000' }}>
+    <div style={{ width: '100%', height: '100vh', background: '#000', position: 'relative' }}>
       <Controls />
       <NEOButton />
       <NEOList />
